@@ -1,0 +1,23 @@
+Chosen config: configs/configs_rdf.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/eclass.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/eclass_smpl_5%_0.txt
+src: 0xa055bc0
+src_count: 2391
+src_count:       2391
+output:          (nil)
+adj_matrices:    0xa05a680
+nonterms_count:  3
+rules:           0xa0776a0
+rules_count:     6
+	0.07602s	0.06916s	0.06939s	0.06918s	0.06923s	0.06924s	0.06944s	0.06970s	0.06919s	0.06928s	0.06913s	0.06752s	0.05803s	0.05742s	0.05743s
+	Time elapsed (avg): 0.067292 seconds. Result: 4781 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/taxonomy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/taxonomy_smpl_5%_0.txt
+src: 0xa08be20
+src_count: 57283
+	32.55648s	29.06172s	29.51220s	29.66993s	29.22277s	31.60006s	33.64659s	29.07901s	28.92824s	29.08471s	29.56305s	28.93192s	29.19519s	29.31816s	29.23058s
+	Time elapsed (avg): 29.906708 seconds. Result: 57283 (return code 0) ()
+

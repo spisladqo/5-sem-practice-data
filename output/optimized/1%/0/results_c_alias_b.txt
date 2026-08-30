@@ -1,0 +1,110 @@
+Chosen config: configs/configs_c_alias_w.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/init.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/init_smpl_5%_0.txt
+src: 0x7f372c6f7010
+src_count: 24462
+src_count:       24462
+output:          (nil)
+adj_matrices:    0x39d35ff0
+nonterms_count:  13
+rules:           0x39d38e60
+rules_count:     16
+	26.16817s	25.39205s	25.38289s	25.44038s	25.42320s	25.49955s	25.51963s	25.52646s	25.66622s	25.71106s
+	Time elapsed (avg): 25.572962 seconds. Result: 58860 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/mm.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/mm_smpl_5%_0.txt
+src: 0x4223e5b0
+src_count: 25382
+	27.11479s	27.12895s	27.15517s	27.17160s	27.21556s	27.13439s	27.15800s	27.17815s	27.20058s	27.25488s
+	Time elapsed (avg): 27.171208 seconds. Result: 61429 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/ipc.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/ipc_smpl_5%_0.txt
+src: 0x553a48c0
+src_count: 34010
+	39.29033s	37.18441s	34.86982s	34.88851s	34.92724s	34.92845s	34.95376s	34.94902s	34.92698s	34.94908s
+	Time elapsed (avg): 35.586761 seconds. Result: 77864 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/lib.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/lib_smpl_5%_0.txt
+src: 0xc79f0260
+src_count: 34013
+	34.95654s	35.03725s	35.08016s	35.92285s	41.00524s	40.35841s	40.07798s	40.23484s	39.79367s	39.70470s
+	Time elapsed (avg): 38.217164 seconds. Result: 80093 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/block.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/block_smpl_5%_0.txt
+src: 0xdadb5fd0
+src_count: 34232
+	34.71585s	34.80175s	34.82848s	34.90806s	34.91495s	34.90978s	34.93066s	34.97538s	35.11876s	35.19852s
+	Time elapsed (avg): 34.930221 seconds. Result: 80156 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/arch.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/arch_smpl_5%_0.txt
+src: 0x9ac51d10
+src_count: 34484
+	36.73031s	36.78163s	36.76095s	36.78190s	36.79846s	36.80889s	36.73868s	36.74642s	36.83250s	36.75594s
+	Time elapsed (avg): 36.773569 seconds. Result: 80368 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/crypto.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/crypto_smpl_5%_0.txt
+src: 0xac094ee0
+src_count: 34649
+	46.14817s	45.54104s	45.59888s	45.50868s	41.62297s	39.56268s	39.64440s	39.78940s	39.92215s	39.80769s
+	Time elapsed (avg): 42.314605 seconds. Result: 81064 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/security.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/security_smpl_5%_0.txt
+src: 0x41d3d2b0
+src_count: 34799
+	44.11620s	45.43893s	44.11989s	44.07602s	44.09899s	44.13892s	44.10543s	44.12351s	44.16618s	44.44425s
+	Time elapsed (avg): 44.282831 seconds. Result: 84295 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/sound.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/sound_smpl_5%_0.txt
+src: 0x1420d3950
+src_count: 35288
+	45.25581s	45.33404s	45.42680s	45.43964s	45.30544s	45.37736s	45.31629s	45.45702s	45.31125s	50.01604s
+	Time elapsed (avg): 45.823970 seconds. Result: 90414 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/fs.g
+Chosen config: configs/configs_c_alias_w.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/fs.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/fs_smpl_5%_0.txt
+src: 0x7f74bf1bb010
+src_count: 41774
+src_count:       41774
+output:          (nil)
+adj_matrices:    0x3ec87d10
+nonterms_count:  13
+rules:           0x3ec89c20
+rules_count:     16
+	66.82657s	67.07958s	67.18777s	67.08739s	67.12135s	67.17015s	67.26441s	71.83447s	76.67270s	74.24324s
+	Time elapsed (avg): 69.248763 seconds. Result: 140252 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/net.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/net_smpl_5%_0.txt
+src: 0x45016090
+src_count: 40394
+	93.16079s	92.33013s	85.71561s	81.29103s	81.52566s	81.73162s	82.10298s	82.36714s	95.14792s	92.89605s
+	Time elapsed (avg): 86.826893 seconds. Result: 133796 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/drivers.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/drivers_smpl_5%_0.txt
+src: 0x5acde9a0
+src_count: 42738
+	101.72341s	102.64321s	103.26123s	104.42081s	103.72351s	104.11481s	103.63450s	103.57730s	104.61167s	112.13715s
+	Time elapsed (avg): 104.384761 seconds. Result: 278382 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_w.cnf, graph: data/graphs/c_alias/kernel.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00007s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000009 seconds. Result: -2 (return code -2) ()
+

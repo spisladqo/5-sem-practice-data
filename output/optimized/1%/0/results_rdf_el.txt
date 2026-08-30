@@ -1,0 +1,81 @@
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ ./build/test -el -c configs/configs_rdf.csv -a CFL_multsrc_adv
+Choosen config: configs/configs_rdf.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/go_hierarchy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/go_hierarchy_smpl_5%_0.txt
+src: 0x1abf0d0
+src_count: 450
+src_count:       450
+output:          (nil)
+adj_matrices:    0x1ab9f00
+nonterms_count:  3
+rules:           0x1cf7e00
+rules_count:     6
+	0.309s	0.286s	0.295s	0.292s	0.284s	0.287s	0.282s	0.278s	0.281s	0.282s	0.282s	0.285s	0.283s	0.283s	0.281s
+	Time elapsed (avg): 0.286040 seconds. Result: 42682 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/eclass.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/eclass_smpl_5%_0.txt
+src: 0x2540fc0
+src_count: 2391
+^C
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ code .
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ ./build/test -el -c configs/configs_rdf.csv -a CFL_multsrc_adv
+Choosen config: configs/configs_rdf.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/go_hierarchy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/go_hierarchy_smpl_5%_0.txt
+src: 0x1d023070
+src_count: 450
+src_count:       450
+output:          (nil)
+adj_matrices:    0x1d01df00
+nonterms_count:  3
+rules:           0x1d25bda0
+rules_count:     6
+	0.354s	0.353s	0.353s	0.354s	0.354s	0.354s	0.354s	0.349s	0.349s	0.351s	0.351s	0.348s	0.351s	0.351s	0.352s
+	Time elapsed (avg): 0.351761 seconds. Result: 42682 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/go.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/go_smpl_5%_0.txt
+src: 0x1daa4f60
+src_count: 5829
+	1.141s	1.145s	1.145s	1.141s	1.138s	1.145s	1.141s	1.140s	1.138s	1.136s	1.387s	1.178s	1.135s	1.132s	1.135s
+	Time elapsed (avg): 1.158491 seconds. Result: 103995 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/taxonomy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/taxonomy_smpl_5%_0.txt
+src: 0x21c95800
+src_count: 57283
+^C
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ code .
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ ./build/test -el -c configs/configs_rdf.csv -a CFL_multsrc_adv
+Choosen config: configs/configs_rdf.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ ./build/test -el -c configs/configs_rdf.csv -a CFL_multsrc_adv
+Choosen config: configs/configs_rdf.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ code .
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ ./build/test -el -c configs/configs_rdf.csv -a CFL_multsrc_adv
+Choosen config: configs/configs_rdf.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/taxonomy_hierarchy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/taxonomy_hierarchy_smpl_5%_0.txt
+src: 0x7f83e2a50010
+src_count: 21126
+src_count:       21126
+output:          (nil)
+adj_matrices:    0x6355f00
+nonterms_count:  3
+rules:           0x6484a70
+rules_count:     6
+	12.654s	12.686s	12.687s	12.673s	12.679s	12.660s	12.571s	12.661s	12.675s	12.625s	12.607s	12.623s	12.779s	12.793s	12.772s
+	Time elapsed (avg): 12.676428 seconds. Result: 584362 (return code 0) ()
+
+spisladqo@fedora:~/projects/c/spla/CFG_bench_adv$ 
+

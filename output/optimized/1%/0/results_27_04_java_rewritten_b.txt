@@ -1,0 +1,4 @@
+Choosen config: configs/configs_java_rewritten.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/java_points_to_rewritten.cnf, graph: data/graphs/java/avrora.g

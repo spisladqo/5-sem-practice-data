@@ -1,0 +1,102 @@
+Chosen config: configs/configs_c_alias_rewritten.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/fs.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/fs_smpl_5%_0.txt
+src: 0x7ff910358010
+src_count: 41774
+src_count:       41774
+output:          (nil)
+adj_matrices:    0x1b1c4b80
+nonterms_count:  5
+rules:           0x1b1c5e60
+rules_count:     10
+	24.51156s	24.45422s	24.43364s	24.43815s	24.43806s	24.44001s	24.43510s	24.43186s	24.41267s	24.40623s
+	Time elapsed (avg): 24.440149 seconds. Result: 148117 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/net.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/net_smpl_5%_0.txt
+src: 0x3fde10f0
+src_count: 40394
+	28.50848s	28.49152s	28.48953s	28.49979s	28.51434s	28.50659s	28.69803s	28.52653s	33.06149s	32.48559s
+	Time elapsed (avg): 29.378189 seconds. Result: 129936 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/drivers.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/drivers_smpl_5%_0.txt
+src: 0x25fab570
+src_count: 42738
+	67.51897s	66.66686s	63.61296s	64.80473s	60.86852s	63.69302s	62.70243s	62.80437s	61.64475s	63.09032s
+	Time elapsed (avg): 63.740693 seconds. Result: 286009 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/kernel.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00002s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000003 seconds. Result: -2 (return code -2) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/apache.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00001s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000003 seconds. Result: -2 (return code -2) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/postgre.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00001s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000003 seconds. Result: -2 (return code -2) ()
+
+Chosen config: configs/configs_c_alias_rewritten.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/fs.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/fs_smpl_5%_0.txt
+src: 0x7fd534365010
+src_count: 41774
+src_count:       41774
+output:          (nil)
+adj_matrices:    0x9240b80
+nonterms_count:  5
+rules:           0x9241e60
+rules_count:     10
+	27.81603s	23.83131s	23.84080s	23.84475s	23.84715s	23.90456s	23.95655s	26.26901s	26.14297s	23.88244s
+	Time elapsed (avg): 24.733558 seconds. Result: 148117 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/net.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/net_smpl_5%_0.txt
+src: 0x2de5d0f0
+src_count: 40394
+	27.95907s	27.96364s	28.05315s	28.05481s	28.06372s	28.07995s	28.10667s	28.21752s	28.17948s	28.22697s
+	Time elapsed (avg): 28.090498 seconds. Result: 129936 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/drivers.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/drivers_smpl_5%_0.txt
+src: 0x14027570
+src_count: 42738
+	59.72018s	59.81737s	57.54315s	58.89575s	55.92188s	59.73797s	58.73433s	58.82933s	57.64114s	58.09636s
+	Time elapsed (avg): 58.493745 seconds. Result: 286009 (return code 0) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/kernel.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00001s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000003 seconds. Result: -2 (return code -2) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/apache.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00001s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000002 seconds. Result: -2 (return code -2) ()
+
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/postgre.g
+Process graph...src path: (null)
+src: (nil)
+src_count: 0
+	0.00001s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s	0.00000s
+	Time elapsed (avg): 0.000003 seconds. Result: -2 (return code -2) ()
+

@@ -1,0 +1,111 @@
+opt: 98
+opt: 99
+Chosen config: configs/configs_java.csv
+opt: 97
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/avrora.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/avrora_smpl_5%_3.txt
+src: 0x241abea0
+src_count: 1234
+src_count:       1234
+output:          (nil)
+adj_matrices:    0x24345030
+nonterms_count:  5
+rules:           0x242ab870
+rules_count:     11
+symbols_amount:  5157
+	0.25545s	0.13204s	0.12585s	0.12294s	0.12316s	0.12280s	0.12269s	0.12359s	0.12348s	0.12334s	0.12232s	0.12317s	0.12291s	0.12256s	0.12561s	0.12381s	0.12241s	0.12291s	0.12253s	0.12456s
+	Time elapsed (avg): 0.130405 seconds. Result: 3033 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/batik.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/batik_smpl_5%_3.txt
+src: 0x2423f290
+src_count: 3008
+	0.47527s	0.47904s	0.47498s	0.47551s	0.47891s	0.47558s	0.47556s	0.47587s	0.47833s	0.47687s	0.47454s	0.47976s	0.47533s	0.47649s	0.47815s	0.47606s	0.47600s	0.48213s	0.47775s	0.47506s
+	Time elapsed (avg): 0.476860 seconds. Result: 6059 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/commons_io.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/commons_io_smpl_5%_3.txt
+src: 0x28787610
+src_count: 1309
+	0.29141s	0.29364s	0.29255s	0.29194s	0.29139s	0.29100s	0.29602s	0.29159s	0.29200s	0.29196s	0.29262s	0.29216s	0.29423s	0.29250s	0.29189s	0.29176s	0.29443s	0.29409s	0.29255s	0.29201s
+	Time elapsed (avg): 0.292586 seconds. Result: 5693 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/commons_lang3.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/commons_lang3_smpl_5%_3.txt
+src: 0x29bbf5c0
+src_count: 2048
+	0.51627s	0.52132s	0.51604s	0.51781s	0.51788s	0.51615s	0.51544s	0.52017s	0.51648s	0.51558s	0.51912s	0.51981s	0.51581s	0.52064s	0.51704s	0.51666s	0.51831s	0.51880s	0.51748s	0.52240s
+	Time elapsed (avg): 0.517962 seconds. Result: 5832 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/eclipse.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/eclipse_smpl_5%_3.txt
+src: 0x29bbf520
+src_count: 2069
+	0.23380s	0.23615s	0.23725s	0.23616s	0.23847s	0.23557s	0.23623s	0.23633s	0.23615s	0.23624s	0.23827s	0.23669s	0.23512s	0.23648s	0.23560s	0.23594s	0.23707s	0.23867s	0.23661s	0.23577s
+	Time elapsed (avg): 0.236428 seconds. Result: 2659 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/fop.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/fop_smpl_5%_3.txt
+src: 0x2d6b9de0
+src_count: 4309
+	0.43093s	0.43190s	0.43207s	0.43049s	0.42987s	0.43289s	0.43133s	0.42951s	0.42941s	0.43390s	0.43117s	0.43354s	0.43291s	0.43234s	0.43084s	0.42838s	0.43490s	0.42983s	0.42847s	0.43328s
+	Time elapsed (avg): 0.431399 seconds. Result: 8666 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/gson.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/gson_smpl_5%_3.txt
+src: 0x2d2e91e0
+src_count: 705
+	0.40916s	0.41007s	0.40985s	0.41306s	0.40927s	0.40927s	0.40958s	0.41211s	0.40983s	0.40836s	0.41134s	0.41020s	0.40894s	0.40903s	0.41085s	0.40984s	0.40782s	0.41250s	0.41255s	0.40817s
+	Time elapsed (avg): 0.410090 seconds. Result: 4894 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/h2.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/h2_smpl_5%_3.txt
+src: 0x31c22ca0
+src_count: 2235
+	0.38124s	0.38255s	0.38434s	0.38325s	0.38202s	0.38060s	0.38585s	0.38246s	0.38133s	0.38130s	0.38416s	0.38309s	0.38179s	0.38113s	0.38603s	0.38060s	0.38214s	0.38097s	0.38449s	0.38202s
+	Time elapsed (avg): 0.382568 seconds. Result: 7558 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/luindex.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/luindex_smpl_5%_3.txt
+src: 0x33fc87f0
+src_count: 926
+	0.08111s	0.08121s	0.08153s	0.08127s	0.08215s	0.08205s	0.08155s	0.08166s	0.08165s	0.08410s	0.08139s	0.08192s	0.08155s	0.08235s	0.08169s	0.08301s	0.08166s	0.08169s	0.08211s	0.08178s
+	Time elapsed (avg): 0.081871 seconds. Result: 1079 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/mockito.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/mockito_smpl_5%_3.txt
+src: 0x34597bd0
+src_count: 1271
+	0.28083s	0.28100s	0.28451s	0.28168s	0.28170s	0.28145s	0.28192s	0.28387s	0.28273s	0.28182s	0.28255s	0.28164s	0.28276s	0.28464s	0.28244s	0.28116s	0.28254s	0.28234s	0.28368s	0.28178s
+	Time elapsed (avg): 0.282352 seconds. Result: 1909 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/pmd.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/pmd_smpl_5%_3.txt
+src: 0x3640b330
+src_count: 2722
+	0.25664s	0.25881s	0.25784s	0.25948s	0.26187s	0.25894s	0.25790s	0.25915s	0.25891s	0.25741s	0.26172s	0.25778s	0.25969s	0.25848s	0.25746s	0.26010s	0.26215s	0.25982s	0.25825s	0.25875s
+	Time elapsed (avg): 0.259058 seconds. Result: 5524 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/sunflow.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/sunflow_smpl_5%_3.txt
+src: 0x384e07d0
+src_count: 773
+	0.07537s	0.07549s	0.07553s	0.07535s	0.07539s	0.07552s	0.07822s	0.07633s	0.07563s	0.07575s	0.07543s	0.07547s	0.07532s	0.07560s	0.07588s	0.07588s	0.07539s	0.07531s	0.07585s	0.07566s
+	Time elapsed (avg): 0.075718 seconds. Result: 1760 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/xalan.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/xalan_smpl_5%_3.txt
+src: 0x38dbbea0
+src_count: 2923
+	0.39240s	0.39895s	0.39419s	0.39423s	0.39218s	0.39627s	0.39539s	0.39137s	0.39594s	0.39359s	0.39230s	0.39510s	0.39737s	0.39305s	0.39512s	0.39190s	0.39646s	0.39268s	0.39401s	0.39444s
+	Time elapsed (avg): 0.394348 seconds. Result: 5849 (return code 0) ()
+
+CONFIG: grammar: data/grammars/java_points_to.cnf, graph: data/graphs/java/tomcat.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/tomcat_smpl_5%_3.txt
+src: 0x39debcd0
+src_count: 5566
+	0.88871s	0.88710s	0.88258s	0.88925s	0.88282s	0.88690s	0.88309s	0.88683s	0.88823s	0.88573s	0.88632s	0.88358s	0.88527s	0.88181s	0.88509s	0.88500s	0.88271s	0.88873s	0.88581s	0.88797s
+	Time elapsed (avg): 0.885676 seconds. Result: 8892 (return code 0) ()
+

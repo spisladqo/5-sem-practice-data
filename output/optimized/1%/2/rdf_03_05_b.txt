@@ -1,0 +1,30 @@
+Chosen config: configs/configs_rdf.csv
+Chosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/go_hierarchy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/go_hierarchy_smpl_5%_0.txt
+src: 0x898c20
+src_count: 450
+src_count:       450
+output:          (nil)
+adj_matrices:    0x893b00
+nonterms_count:  3
+rules:           0xad1950
+rules_count:     6
+	0.08021s	0.07966s	0.08053s	0.08047s	0.08007s	0.08042s	0.08010s	0.08078s	0.08212s	0.08239s
+	Time elapsed (avg): 0.080676 seconds. Result: 29991 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/go.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/go_smpl_5%_0.txt
+src: 0x256e5d0
+src_count: 5829
+	1.58522s	1.57581s	1.59310s	1.60167s	1.60347s	1.59803s	1.60174s	1.59548s	1.60785s	1.61111s
+	Time elapsed (avg): 1.597350 seconds. Result: 101940 (return code 0) ()
+
+CONFIG: grammar: data/grammars/nested_parentheses_subClassOf_type.cnf, graph: data/graphs/rdf/taxonomy_hierarchy.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/taxonomy_hierarchy_smpl_5%_0.txt
+src: 0x1f69a120
+src_count: 21126
+	15.02700s	14.99594s	14.94987s	14.96109s	14.96034s	15.00487s	14.98068s	15.06693s	15.03341s	14.97083s
+	Time elapsed (avg): 14.995095 seconds. Result: 665234 (return code 0) ()
+

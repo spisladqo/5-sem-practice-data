@@ -1,0 +1,14 @@
+Choosen config: configs/configs_c_alias_rewritten.csv
+Choosen algorithm: CFL_multsrc_adv
+Start bench
+CONFIG: grammar: data/grammars/c_alias_rewritten.cnf, graph: data/graphs/c_alias/init.g
+Process graph...src path: ../CFPQ_PyAlgo/experiments/samples/init_smpl_5%_0.txt
+src: 0x7f610437a010
+src_count: 24462
+src_count:       24462
+output:          (nil)
+adj_matrices:    0xe1ddeb0
+nonterms_count:  5
+rules:           0xe1e00f0
+rules_count:     10
+	11.10710s	11.16071s
