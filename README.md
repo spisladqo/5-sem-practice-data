@@ -13,11 +13,11 @@
 
 ## Тестовые данные
 
-Тестовых графы и грамматики были взяты из набора данных CFPQ_Data: https://github.com/FormalLanguageConstrainedPathQuerying/CFPQ_Data (дата доступа: 02.09.26).
+Тестовых графы и грамматики были взяты из набора данных CFPQ_Data: https://github.com/FormalLanguageConstrainedPathQuerying/CFPQ_Data (дата доступа: 06.10.26).
 
 В качестве начальных вершин были взяты случайные вершины из множества всех вершин графа (см. раздел [Методология](#методология)).
 
-Ссылка на архив с использованными графами, грамматиками и начальными вершинами: https://drive.google.com/file/d/1097c0lNpBJXD7i_uBhlcOlLEKzZaRdGm/view?usp=sharing (дата доступа: 02.09.26).
+Ссылка на архив с использованными графами, грамматиками и начальными вершинами: https://drive.google.com/file/d/1097c0lNpBJXD7i_uBhlcOlLEKzZaRdGm/view?usp=sharing (дата доступа: 06.10.26).
 
 
 ## Методология
