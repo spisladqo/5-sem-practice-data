@@ -41,6 +41,8 @@
 
 ## Результаты
 
+Ссылка с таблицей с результатами: https://docs.google.com/spreadsheets/d/1U5EFtT-sknDls4jNj1isX_FAb7Q8WS634dj1UQEmzjo/edit?gid=0#gid=0 (дата доступа: 06.10.26). Таблица также есть в репозитории в формате csv.
+
 Ниже представлены графики для 5% начальных вершин. Графики для 1% вершин можно найти [здесь](visuals/1%).
 
 ![java points 5%](<visuals/5%/pointplot_java_5.png>)
