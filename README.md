@@ -19,6 +19,7 @@
 
 Ссылка на архив с использованными графами, грамматиками и начальными вершинами: https://drive.google.com/file/d/1097c0lNpBJXD7i_uBhlcOlLEKzZaRdGm/view?usp=sharing (дата доступа: 14.10.26).
 
+Эксперименты проведены с помощью инструмента CFG_bench: https://github.com/spisladqo/CFG_bench/tree/homka122/advanced_algo (дата доступа: 14.10.26).
 
 ## Методология
 
