@@ -6,6 +6,7 @@ from pathlib import Path
 
 # Алгоритмы, которые есть в новой таблице
 algo_columns = [
+    'multsrc',
     'multsrc_adv',
     'multsrc_adv -e',
     'multsrc_adv -f',
@@ -115,7 +116,7 @@ def parse_csv(file_path):
     return df
 
 
-file_path = '05.10.26 results - Лист1.csv'
+file_path = '13.10.26 results - Лист1.csv'
 df = parse_csv(file_path)
 
 print("Размер DataFrame:", df.shape)
