@@ -46,10 +46,20 @@
 
 Ссылка на таблицу с результатами: https://docs.google.com/spreadsheets/d/19qs1ctU-6l-Ps0TCPTr8nSQmio8EQPiUsV5L4YGVXas/edit?gid=0#gid=0 (дата обращения: 14.10.26). Таблица также есть в репозитории в формате csv.
 
-Ниже представлены графики для 5% начальных вершин. Графики для 1% вершин можно найти [здесь](visuals/1%25).
+Ниже представлены графики для 5% начальных вершин:
 
-![java points 5%](<visuals/5%25/pointplot_java_5.png>)
+![java 5%](<visuals/5%25/plot_java_5.png>)
 
-![c points 5%](visuals/5%25/pointplot_c_alias_5.png)
+![c 5%](visuals/5%25/plot_c_alias_5.png)
 
-![c points 5%](visuals/5%25/pointplot_rdf_5.png)
+![rdf 5%](visuals/5%25/plot_rdf_5.png)
+
+
+Для 1% начальных вершин:
+
+
+![java 1%](<visuals/1%25/plot_java_5.png>)
+
+![c 1%](visuals/1%25/plot_c_alias_5.png)
+
+![rdf 1%](visuals/1%25/plot_rdf_5.png)
