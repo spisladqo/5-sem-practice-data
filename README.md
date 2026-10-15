@@ -58,8 +58,8 @@
 Для 1% начальных вершин:
 
 
-![java 1%](<visuals/1%25/plot_java_5.png>)
+![java 1%](<visuals/1%25/plot_java_1.png>)
 
-![c 1%](visuals/1%25/plot_c_alias_5.png)
+![c 1%](visuals/1%25/plot_c_alias_1.png)
 
-![rdf 1%](visuals/1%25/plot_rdf_5.png)
+![rdf 1%](visuals/1%25/plot_rdf_1.png)
